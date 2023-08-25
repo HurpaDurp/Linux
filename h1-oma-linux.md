@@ -60,6 +60,7 @@ Ja kuten totuttua, juuri asennettu käyttöjärjestelmä ei ole ajantasaisin. Aj
 ### Guest Additions
 
 Asennamme vielä VirtualBoxin Guest Additions -paketin, jotta saamme suurennettua virtuaalikoneemme näyttöä ja voimme ehkä tehdäkkin jotain. Tämä tapahtuu suoraan VirtualBoxista.
+
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/a9b8636f-d43b-48ac-b226-c1d8d9cf4bd1)
 Klikkaamme Devices ja Insert Guest Additions CD Image
 
