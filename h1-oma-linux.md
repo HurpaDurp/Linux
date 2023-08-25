@@ -75,7 +75,7 @@ Työpöydälle ilmestyy levykuva ja sitä tuplaklikkaamalla näemme sen sisäll�
 
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/79638b4e-8a3d-4f3e-b85f-060a02aa7804)
 
-Tämän asennuksen jälkeen virtuaalikoneen ikkunan muuttaminen muuttaa myös virtuaalikoneen näytön kokoa, ei enää tihrustamista ahtaalla näytöllä.
+Tämän asennuksen jälkeen virtuaalikoneen ikkunan muuttaminen muuttaa myös virtuaalikoneen näytön kokoa, ei enää tihrustamista ahtaalla näytöllä. Virtuaalikoneen saa sammuksiin klikkaamalla käyttäjänimeä oikeasta yläkulmasta ja valitsemalla "Shut Down".
 
 
 
