@@ -6,7 +6,7 @@ Raporttia on helpoin kirjoittaa sitä mukaa kun tekee harjoitusta. Tästä rapor
 # Linuxin asentaminen virtuaalikoneeseen
 Homman nimi ois siis asentaa Debian virtuaalikoneelle. Pohjana meillä on Windows 11 asennettuna AMD:n raudalle ja Oraclen Virtualbox, oletan että Virtualboxin asennusta tai Debianin löytämistä ei tarvitse tässä vaiheessa käydä läpi.
 
-1. Virtuaalikoneen luominen
+##Virtuaalikoneen luominen
 
 VirtualBox auki ja aloitamme uuden virtuaalikoneen luomisen klikkaamalla "New". Koneelle annetaan nimi, sijainti massamuistilla ja valitaan haluttu levykuva. Tyyppi tuli automaattisesti oikeaksi (Linux), mutta versio piti vaihtaa manuaalisesti 64-bittiseksi. "Unattended Installation" skipataan, koska se ei kuulemma toimi.
    ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/cd065709-ca7b-4629-970a-63137074eb41)
@@ -19,7 +19,7 @@ Debian-laitetta tuplaklikkaamalla saamme upean virtuaalikoneemme boot menun auki
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/8bc2bcf2-78d2-4e68-8ada-1c4d8b54780a)
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/f3afe9f3-f49a-4cd0-ba59-5832b75651de)
 
-2. Asennus
+##Asennus
   
 Install Debian -kuvaketta klikkaamalla saamme luonnollisesti varoituksen epäluotettavasta lähteestä, mutta valitsemalla "launch anyway" saamme asennuksen etenemään.
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/4a3990d0-a130-49e4-bd64-5568928b83f2)
@@ -52,12 +52,12 @@ Kirjautuminen aiemmin luodulla tilillä
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/f8ebae60-7c18-4f86-bb40-9dc80718ea47)
 Ja meillä on työpöytä!
 
-3. Päivitykset
+##Päivitykset
 
 Ja kuten totuttua, juuri asennettu käyttöjärjestelmä ei ole ajantasaisin. Ajetaan komentokehotteesta päivitykset komennoilla "sudo apt-get update" ja "sudo apt-get -y dist-upgrade". Jälkimmäisessä kestää hetken aikaa.
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/835b6321-c767-485f-a99d-a146ef0b5bff)
 
-4. Guest Additions
+##Guest Additions
 
 Asennamme vielä VirtualBoxin Guest Additions -paketin, jotta saamme suurennettua virtuaalikoneemme näyttöä ja voimme ehkä tehdäkkin jotain. Tämä tapahtuu suoraan VirtualBoxista.
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/a9b8636f-d43b-48ac-b226-c1d8d9cf4bd1)
