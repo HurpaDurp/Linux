@@ -1,9 +1,9 @@
 # Raportin kirjoittaminen
 Raporttia on helpoin kirjoittaa sitä mukaa kun tekee harjoitusta. Tästä raportista tulee dokumentaatio tehdyistä asioista ja sen perusteella homma on toistettavissa.
 
-## Free Software
+# Free Software
 
-### Linuxin asentaminen virtuaalikoneeseen
+# Linuxin asentaminen virtuaalikoneeseen
 Homman nimi ois siis asentaa Debian virtuaalikoneelle. Pohjana meillä on Windows 11 asennettuna AMD:n raudalle ja Oraclen Virtualbox, oletan että Virtualboxin asennusta tai Debianin löytämistä ei tarvitse tässä vaiheessa käydä läpi.
 
 1. Virtuaalikoneen luominen
