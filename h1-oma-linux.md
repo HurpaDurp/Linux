@@ -1,10 +1,14 @@
 # Raportin kirjoittaminen
-Raporttia on helpoin kirjoittaa sitä mukaa kun tekee harjoitusta. Tästä raportista tulee dokumentaatio tehdyistä asioista ja sen perusteella homma on toistettavissa.
+Raporttia on helpoin kirjoittaa sitä mukaa kun tekee harjoitusta. Tästä raportista tulee dokumentaatio tehdyistä asioista ja sen perusteella homma on helposti toistettavissa myös jonkun muun toimesta.
 
 # Free Software
+- Vapaa käytettäväksi miten/mihin haluaa
+- Pääsy lähdekoodiin, jota voi muokata halutulla tavalla
+- Oikeus kopioiden jakamiseen, myös niihin joita olet itse muokannut
+
 
 # Linuxin asentaminen virtuaalikoneeseen
-Homman nimi ois siis asentaa Debian virtuaalikoneelle. Pohjana meillä on Windows 11 asennettuna AMD:n raudalle ja Oraclen Virtualbox, oletan että Virtualboxin asennusta tai Debianin löytämistä ei tarvitse tässä vaiheessa käydä läpi.
+Homman nimi ois siis asentaa Debian (https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.1.0-amd64-xfce.iso) virtuaalikoneelle. Pohjana meillä on Windows 11 asennettuna AMD:n raudalle ja Oraclen Virtualbox (https://www.virtualbox.org/wiki/Downloads).
 
 ### Virtuaalikoneen luominen
 
@@ -52,10 +56,12 @@ Kirjautuminen aiemmin luodulla tilillä
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/f8ebae60-7c18-4f86-bb40-9dc80718ea47)
 Ja meillä on työpöytä!
 
-### Päivitykset
+### Päivitykset ja palomuuri
 
 Ja kuten totuttua, juuri asennettu käyttöjärjestelmä ei ole ajantasaisin. Ajetaan komentokehotteesta päivitykset komennoilla "sudo apt-get update" ja "sudo apt-get -y dist-upgrade". Jälkimmäisessä kestää hetken aikaa.
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/835b6321-c767-485f-a99d-a146ef0b5bff)
+
+Palomuurin asennamme komennolla "sudo apt-get -y install ufw" ja otamme käyttöön komennolla "sudo ufw enable". Muutokset tulevat ilmeisesti voimaan uudelleenkäynnistyksen jälkeen.
 
 ### Guest Additions
 
