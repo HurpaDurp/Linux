@@ -28,7 +28,7 @@ Asennetaan sovellukset cowsay, lolcat ja cmatrix. Tämä voidaan tehdä yhdellä
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/2be74d16-8ff4-42c6-ad4b-5b7ca5976d61)
 ![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/5380450f-5bc7-4615-81f3-b8ace269eed3)
 
-#FHS
+# FHS
 
 Juurikansio /
 
