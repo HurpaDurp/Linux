@@ -1,4 +1,4 @@
-![kuva](https://github.com/HurpaDurp/Linux/assets/143202749/28814d0e-352d-4302-9a1b-e84358455d49)# Apache web server
+# Apache web server
 
 - Asennus tehdään luonnollisesti komentoriviltä komennolla $ sudo apt-get install apache2
 - Toimivuus testataan osoitteella http://localhost
